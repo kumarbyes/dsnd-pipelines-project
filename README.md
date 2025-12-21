@@ -1,6 +1,6 @@
 # Identification of trending products by analysing Customer reviews
 
-![Classification](images/Classification.png)
+![Classification](starter/images/Classification.png)
 
 ## Table of Contents
 
