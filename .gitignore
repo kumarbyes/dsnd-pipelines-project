@@ -1,3 +1,7 @@
+#pickle files
+starter/model_base.pkl
+starter/model_best.pkl
+
 # Personalized files
 .DS_Store
 

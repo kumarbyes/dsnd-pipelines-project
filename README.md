@@ -1,4 +1,4 @@
-# Identification of trending products by analysing Customer reviews
+# Sentiment analyis of Customer reviews of Women's Clothing
 
 ![Classification](starter/images/Classification.png)
 
@@ -65,6 +65,8 @@ Following files are available in the github repository to succesfully run the co
 4. **LICENSE.txt**: License file for the project
 
 ### Result Summary
+
+With an accuracy of 89% on the test dataset, the model seems to predict the sentiment of the reviews better. Digging lit bit deeper into class wise metrics, SVC fails short on **Class 0** of user not recommending the product. Future fine tuning should be directed towards improving the metrics for both the classes.
 
 ## License
 
