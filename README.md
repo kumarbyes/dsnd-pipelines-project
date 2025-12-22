@@ -14,7 +14,7 @@
 
 ## Project Description
 
-This project is used to predict whether a customer recommends the product using Sklearn python library. As the given dataset contains numerical, categorical and text columns, preprocessing is performed separately on the columns. Text columns were explored and preprocessed using SpaCy. After preprocessing, the text columns were converted to numerical columns using TFIDF Vectorizer and DictVectorizer. Once all the columns were numerical, model fitting and prediction was performed using Support Vector classification. Considering the compute power required for finetuning, model hyperparameters were tuned using RandomSearchCV. Finally the models were compared using the evaluation metrics available in Sklearn.
+This project is used to analyse the sentiment of the reviews left by the customer and to predict whether the customer recommends the product. As the given dataset contains numerical, categorical and text columns, preprocessing is performed separately on the columns using pipeline. Text columns were explored and preprocessed using SpaCy. After preprocessing, the text columns were converted to numerical columns using TFIDF Vectorizer and DictVectorizer. Once all the columns were numerical, model fitting and prediction were performed using Support Vector classification. Considering the compute power required for finetuning, model hyperparameters were tuned using RandomSearchCV. Finally the models were compared using the evaluation metrics available in Sklearn.
 
 ### Dataset
 
